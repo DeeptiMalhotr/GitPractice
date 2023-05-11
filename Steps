@@ -1,0 +1,19 @@
+First create the GitHub account if you do not have one.
+Create a new Repository like GitTutorial or GitPractice.
+To create Repository --> go to Repository --> click on New --> add name of the repository --> make it Public and check ReadMe --> Click Create Repository.
+Go to Terminal Window.
+Create the directory using command --> mkdir GitTutorial in Terminal.
+Go to the directory using command --> cd GitTutorial in the Terminal.
+to initalized the folder as git local repository by using command --> git init.
+Adding file in the folder GitTutorial by using Terminal command --> code --> this will lead to open the visual studio code window.
+Create a new file and adding content in it and save it.
+To check the file we created is there in local repository by using command --> git status.
+command --> git status will show all the untracked file that are in our local repository.
+command --> git add filename, will add the file which are in local repository.
+After successful completion of command --> git commit -m "text message", will actual save file the local repository, this is where the file comes into staging area.
+Before pusing the file into the remote repository, create a connection by using the command --> get remote add origin -- copy the link of the Git hub repository. 
+To check and confirm the successful connection by using command --> git remote -v.
+Now to push the files in remote by using command --> git push or git push --set-upstream origin master
+this might ask for remote username and password authentication.
+For username add the Github username and password as your tocken created tin Github.
+after successful login, we can see the file in Github in branches. 
